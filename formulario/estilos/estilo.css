@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("http://sic.cultura.gob.mx/images/62250");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.form-ficha{
+    width: 700px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    line-height: 30px;
+    text-align: left;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    opacity: 0.9;
+}
+
+.msg-error{
+    color: rgb(255, 1, 1);
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.msg-ok{
+    color: rgb(110, 223, 18);
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    initial-letter-align: 3px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font: normal 11px/22px sans-serif;
+    padding: 10px 20px;
+    color: black;
+    width: 500px;
+    border: 1px solid #ccc;
+}
+
+h1{
+    font-size: 39px;
+    margin-bottom: 20px;
+    color: rgb(238, 111, 8);
+    text-align: center;
+    line-height: 4rem;
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(0, 76, 198);
+    text-align: center;
+    line-height: 0rem;
+}
+
+.ficha{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 5rem;
+}
+
+.campo{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.boton-enviar{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0;
+    font-size: 16px;
+}
